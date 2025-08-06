@@ -1,0 +1,12 @@
+{
+  // Configure Vercel to serve static assets from the built `dist` folder before falling back
+  // to the single-page application entrypoint.  Without this configuration, requests for
+  // files under the `/assets` directory (e.g. the compiled JS and CSS) were rewritten to
+  // `/index.html` causing the site to lose its styling.  The `handle: "filesystem"` rule
+  // ensures that any file that exists in the output directory is served directly, and
+  // only unknown paths are rewritten to `index.html` to support client‑side routing.
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
+  ]
+}
