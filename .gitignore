@@ -1,0 +1,17 @@
+# Node dependencies and build output
+node_modules/
+dist/
+
+# Capacitor generated native project build outputs
+android/app/build/
+ios/App/App/build/
+ios/Pods/
+
+# System files
+.DS_Store
+*.log
+*.tmp
+
+# IDE settings
+.vscode/
+.idea/

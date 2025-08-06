@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Global styles can be added here if needed.  Currently all
+ * styling for the application is handled by Tailwind utility
+ * classes defined in the components.  Should you need to
+ * override or extend any of Tailwind’s defaults, you can do so
+ * within the tailwind.config.js file or by adding custom CSS
+ * below.
+ */
